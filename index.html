@@ -1,0 +1,131 @@
+<!--
+ * @Author: MngYou
+ * @Date: 2022-01-07 22:13:24
+ * @LastEditTime: 2022-02-28 18:47:30
+ * @FilePath: \wx\index.html
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wx</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+	<style>
+		*{
+			margin: auto 0px;
+			padding: 0%;
+			background-color: black;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		var story_ ={};
+		story_['剧情_战斗_教学'] = [];
+		var 对手功力 = 1;
+		var 强度 = 1;
+		var 强度2 = 1;
+		var 强度3 = 1;
+		var 主角数据;
+		var 游戏数据;
+		var 剧情名称 = '剧情_衡阳'; //游戏开局 剧情_序 
+		var 场景索引 = 0;  //游戏开局0 调试bug32
+		//var 剧情名称 = '剧情_序';
+		//var 场景索引 = 32;
+		var 对话框存在选项 = false;
+		var 对话框跳转 = [];
+		var 胜利时跳转 = {};
+		var 失败时跳转 = {};
+		var audio;
+		var audios = [];
+		var a_i = 0;
+		var 所处场景  = '';//主角所在场景
+		//debug
+		//story_['剧情_序'][33].跳转战斗名称 = '战斗_少林_僧人2';
+		var 金盆洗手事件 = false;
+		var 襄阳蒙冤事件 = false;
+		var 襄阳衙门事件 = false;
+		var 剑冢救雕事件 = false;
+		var 英雄大会剧情线 = 0;//聚贤庄乔峰事件
+		var 辟邪剑谱剧情线 = 0;//福威镖局、破庙、青城派杀余沧海
+		var 无量山洞剧情线 = 0;//无量山洞、莽牯朱蛤
+		var 长白山两女互斗剧情线 = 0;//等级35
+		var 万劫谷剧情线 = 0;
+		var 破庙剧情线 = 0;//辟邪剑谱线、弹指神通线 还会影响到南海鳄神线
+		var 破庙练毒剧情线 = 0;//破庙阿紫
+		var 昆仑派剧情线 = 0;//治病 九阳 需要医疗 80 福缘 80
+		var 天龙寺剧情线 = 0;//一阳指 六脉剑谱
+		var 侠客岛剧情线 = 0;//腊八粥 太玄经神功
+		var 黑木崖剧情线 = 0;//加入日月神教
+		var 光明顶战役剧情线 = 0;//散人 少林 武当 都会触发剧情 等级大于等于30
+		var 武当派剧情线 = 0;
+		var 华山派剧情线 = 0;
+		var 少林寺剧情线 = 0;
+		var 华山思过崖剧情线 = 0;
+		var 田伯光剧情线 = 0;//衡阳遇田伯光 华山思过崖
+		var 华山令狐冲剧情线 = 0;//可得独孤九剑或者无招胜有招
+		var 左冷禅任务剧情线 = 0;
+		var 金盆洗手剧情线 = 0;
+		var 五岳掌门剧情线 = 0;//五岳并派
+		var 武当派剧情线 = 0;
+		var 声望150剧情线 = 0;
+		var 声望500剧情线 = 0;
+		var 声望600剧情线 = 0;
+		var 声望900剧情线 = 0;
+	</script>
+</body>
+<!-- 游戏引擎 -->
+<script src="./script/engine/phaser.min.js"></script>
+<!-- 游戏数据 -->
+<script src="./script/data/base.js"></script>
+<script src="./script/data/headList.js"></script>
+<script src="./script/data/mapList.js"></script>
+<script src="./script/data/mp3List.js"></script>
+<script src="./script/data/kungfu.js"></script>
+<script src="./script/data/item.js"></script>
+<!-- 游戏剧本  -->
+<script src="./script/story/player.js"></script>
+<script src="./script/story/enemys.js"></script>
+<script src="./script/story/addFightStory.js"></script>
+<script src="./script/story/story_剧情_序.js"></script>
+<script src="./script/story/story_剧情_初出江湖.js"></script>
+<script src="./script/story/story_剧情_衡阳.js"></script>
+<script src="./script/story/story_剧情_衡阳刘府.js"></script>
+<script src="./script/story/story_剧情_襄阳.js"></script>
+<script src="./script/story/story_剧情_渡口.js"></script>
+<script src="./script/story/story_剧情_主角家.js"></script>
+<script src="./script/story/story_剧情_百花谷.js"></script>
+<script src="./script/story/story_剧情_剑冢.js"></script>
+<script src="./script/story/story_剧情_铸剑谷.js"></script>
+<script src="./script/story/story_剧情_破庙.js"></script>
+<script src="./script/story/story_剧情_福威镖局.js"></script>
+<script src="./script/story/story_剧情_长白山.js"></script>
+<script src="./script/story/story_剧情_聚贤庄.js"></script>
+<script src="./script/story/story_剧情_无量山洞.js"></script>
+<script src="./script/story/story_剧情_万劫谷.js"></script>
+<script src="./script/story/story_剧情_昆仑派.js"></script>
+<script src="./script/story/story_剧情_天龙寺.js"></script>
+<script src="./script/story/story_剧情_青城派.js"></script>
+<script src="./script/story/story_剧情_侠客岛.js"></script>
+<script src="./script/story/story_剧情_华山之巅.js"></script>
+<script src="./script/story/story_剧情_黑木崖.js"></script>
+<script src="./script/story/story_剧情_明教总坛.js"></script>
+<script src="./script/story/story_剧情_华山派.js"></script>
+<script src="./script/story/story_剧情_嵩山派.js"></script>
+<script src="./script/story/story_剧情_武当派.js"></script>
+<script src="./script/story/story_剧情_少林寺.js"></script>
+<script src="./script/story/story_剧情_主地图.js"></script>
+<!-- 游戏主程 -->
+<script src="./script/story/主角数据可视化UI.js"></script>
+<script src="./script/story/城市.js"></script>
+<script src="./script/story/场景.js"></script>
+<script src="./script/story/主地图.js"></script>
+<script src="./script/bootState.js"></script>
+<script src="./script/loaderState.js"></script>
+<script src="./script/menuState.js"></script>
+<script src="./script/fightState.js"></script>
+<script src="./script/deathState.js"></script>
+<script src="./script/tools.js"></script>
+<script src="./script/index.js"></script>
+
+</html>
