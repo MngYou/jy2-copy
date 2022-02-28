@@ -1,0 +1,76 @@
+{"frames": [
+
+{
+	"filename": "00bb.png",
+	"frame": {"x":854,"y":235,"w":100,"h":18},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":290,"y":311,"w":100,"h":18},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00bc.png",
+	"frame": {"x":1,"y":1,"w":402,"h":408},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":142,"y":113,"w":402,"h":408},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00bd.png",
+	"frame": {"x":848,"y":265,"w":195,"h":212},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":262,"y":225,"w":195,"h":212},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00be.png",
+	"frame": {"x":854,"y":1,"w":213,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":248,"y":203,"w":213,"h":232},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00bf.png",
+	"frame": {"x":652,"y":1,"w":200,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":250,"y":189,"w":200,"h":262},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00c0.png",
+	"frame": {"x":405,"y":1,"w":245,"h":256},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":225,"y":190,"w":245,"h":256},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00c1.png",
+	"frame": {"x":630,"y":265,"w":216,"h":203},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":235,"y":213,"w":216,"h":203},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00c2.png",
+	"frame": {"x":405,"y":259,"w":223,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":234,"y":195,"w":223,"h":222},
+	"sourceSize": {"w":894,"h":668}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "六脉神剑.png",
+	"format": "RGBA8888",
+	"size": {"w":1068,"h":482},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4ef61b3372291416baa708c953914933:63b9416aee72f7ac104778f883af2735:eefec3203c5eaafc620807537b39d78e$"
+}
+}

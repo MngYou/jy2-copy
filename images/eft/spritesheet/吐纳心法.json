@@ -1,0 +1,52 @@
+{"frames": [
+
+{
+	"filename": "01a0.png",
+	"frame": {"x":1,"y":248,"w":75,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":329,"w":75,"h":85},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "01a1.png",
+	"frame": {"x":1,"y":76,"w":76,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":526,"y":313,"w":76,"h":86},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "01a2.png",
+	"frame": {"x":1,"y":335,"w":74,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":528,"y":317,"w":74,"h":87},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "01a3.png",
+	"frame": {"x":1,"y":164,"w":76,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":526,"y":313,"w":76,"h":82},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "01a4.png",
+	"frame": {"x":1,"y":1,"w":79,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":528,"y":309,"w":79,"h":73},
+	"sourceSize": {"w":894,"h":668}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "吐纳心法.png",
+	"format": "RGBA8888",
+	"size": {"w":81,"h":423},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:02a227b3c57ef0db86f23489dc2b6fc9:3a4a05f4016613e1c7e21ebaa9989e9e:d88456432be7766ab9944c7258b1ac74$"
+}
+}

@@ -1,0 +1,132 @@
+{"frames": [
+
+{
+	"filename": "00c4.png",
+	"frame": {"x":174,"y":222,"w":14,"h":16},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":530,"y":271,"w":14,"h":16},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00c5.png",
+	"frame": {"x":243,"y":156,"w":50,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":506,"y":252,"w":50,"h":46},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00c6.png",
+	"frame": {"x":174,"y":156,"w":67,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":502,"y":235,"w":67,"h":64},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00c7.png",
+	"frame": {"x":91,"y":156,"w":81,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":496,"y":221,"w":81,"h":87},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00c8.png",
+	"frame": {"x":1,"y":156,"w":88,"h":97},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":492,"y":218,"w":88,"h":97},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00c9.png",
+	"frame": {"x":764,"y":1,"w":95,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":485,"y":212,"w":95,"h":107},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00ca.png",
+	"frame": {"x":659,"y":1,"w":103,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":477,"y":214,"w":103,"h":113},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00cb.png",
+	"frame": {"x":591,"y":130,"w":110,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":478,"y":220,"w":110,"h":117},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00cc.png",
+	"frame": {"x":565,"y":1,"w":92,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":472,"y":219,"w":92,"h":127},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00cd.png",
+	"frame": {"x":331,"y":148,"w":258,"h":106},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":262,"y":286,"w":258,"h":106},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00ce.png",
+	"frame": {"x":331,"y":1,"w":120,"h":145},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":285,"y":241,"w":120,"h":145},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00cf.png",
+	"frame": {"x":169,"y":1,"w":160,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":267,"y":239,"w":160,"h":153},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00d0.png",
+	"frame": {"x":1,"y":1,"w":166,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":261,"y":242,"w":166,"h":153},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00d1.png",
+	"frame": {"x":453,"y":1,"w":110,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":282,"y":255,"w":110,"h":128},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "00d2.png",
+	"frame": {"x":703,"y":116,"w":109,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":287,"y":272,"w":109,"h":110},
+	"sourceSize": {"w":894,"h":668}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "金蛇剑法.png",
+	"format": "RGBA8888",
+	"size": {"w":860,"h":255},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:12de7df243b138f36bc0979b29ecc5fb:6437404cc1e56a52c9f52806a3b9cd6d:7bfec157848ebea24a7d19ebc3922da7$"
+}
+}

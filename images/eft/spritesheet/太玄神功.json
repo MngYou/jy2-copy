@@ -1,0 +1,116 @@
+{"frames": [
+
+{
+	"filename": "0164.png",
+	"frame": {"x":645,"y":1,"w":642,"h":458},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":131,"y":92,"w":642,"h":458},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0165.png",
+	"frame": {"x":1,"y":1,"w":642,"h":461},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":123,"y":92,"w":642,"h":461},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0166.png",
+	"frame": {"x":1,"y":464,"w":642,"h":459},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":123,"y":90,"w":642,"h":459},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0167.png",
+	"frame": {"x":1,"y":925,"w":642,"h":456},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":123,"y":94,"w":642,"h":456},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0168.png",
+	"frame": {"x":1,"y":1383,"w":642,"h":451},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":123,"y":94,"w":642,"h":451},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0169.png",
+	"frame": {"x":645,"y":927,"w":642,"h":447},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":123,"y":98,"w":642,"h":447},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0170.png",
+	"frame": {"x":645,"y":461,"w":634,"h":464},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":131,"y":70,"w":634,"h":464},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0171.png",
+	"frame": {"x":645,"y":1376,"w":617,"h":458},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":141,"y":64,"w":617,"h":458},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0172.png",
+	"frame": {"x":1264,"y":1422,"w":605,"h":427},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":135,"y":60,"w":605,"h":427},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0173.png",
+	"frame": {"x":1289,"y":1,"w":560,"h":422},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":167,"y":60,"w":560,"h":422},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0174.png",
+	"frame": {"x":1289,"y":425,"w":530,"h":418},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":185,"y":60,"w":530,"h":418},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0175.png",
+	"frame": {"x":1289,"y":845,"w":497,"h":288},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":197,"y":192,"w":497,"h":288},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0176.png",
+	"frame": {"x":1289,"y":1135,"w":457,"h":285},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":211,"y":182,"w":457,"h":285},
+	"sourceSize": {"w":894,"h":668}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "太玄神功.png",
+	"format": "RGBA8888",
+	"size": {"w":1870,"h":1850},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:449633a7108eb4187874384484d351ac:32aa0cbd2e98eff7bef4d7bf4b3b8e3a:e995764eebabf82ece8bab68b1294160$"
+}
+}

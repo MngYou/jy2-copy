@@ -1,0 +1,100 @@
+{"frames": [
+
+{
+	"filename": "0189.png",
+	"frame": {"x":1012,"y":1,"w":124,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":283,"y":193,"w":124,"h":187},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0190.png",
+	"frame": {"x":751,"y":1,"w":130,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":276,"y":189,"w":130,"h":187},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0191.png",
+	"frame": {"x":618,"y":1,"w":131,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":275,"y":189,"w":131,"h":187},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0192.png",
+	"frame": {"x":883,"y":1,"w":127,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":276,"y":189,"w":127,"h":187},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0193.png",
+	"frame": {"x":1138,"y":1,"w":123,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":281,"y":189,"w":123,"h":185},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0194.png",
+	"frame": {"x":1263,"y":1,"w":122,"h":183},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":282,"y":189,"w":122,"h":183},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0195.png",
+	"frame": {"x":1387,"y":1,"w":129,"h":180},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":282,"y":191,"w":129,"h":180},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0196.png",
+	"frame": {"x":456,"y":1,"w":160,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":275,"y":189,"w":160,"h":187},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0197.png",
+	"frame": {"x":279,"y":1,"w":175,"h":189},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":272,"y":189,"w":175,"h":189},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0198.png",
+	"frame": {"x":1,"y":1,"w":142,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":268,"y":189,"w":142,"h":192},
+	"sourceSize": {"w":894,"h":668}
+},
+{
+	"filename": "0199.png",
+	"frame": {"x":145,"y":1,"w":132,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":281,"y":189,"w":132,"h":192},
+	"sourceSize": {"w":894,"h":668}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "太极剑.png",
+	"format": "RGBA8888",
+	"size": {"w":1517,"h":194},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:62b97655f7c63d98ca6ada5bc1e8c985:c1c55eb6da6b59fd0ed5129b3b13a1f0:3f6115dd08ca980d6b445cf44c0b4aec$"
+}
+}
